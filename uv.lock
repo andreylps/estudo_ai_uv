@@ -1657,6 +1657,7 @@ source = { editable = "." }
 dependencies = [
     { name = "langchain", extra = ["google-genai", "ollama", "openai"] },
     { name = "langchain-community" },
+    { name = "langgraph" },
     { name = "langgraph-cli", extra = ["inmem"] },
     { name = "python-dotenv" },
     { name = "rich" },
@@ -1666,6 +1667,7 @@ dependencies = [
 requires-dist = [
     { name = "langchain", extras = ["google-genai", "ollama", "openai"], specifier = ">=1.0.0a6" },
     { name = "langchain-community", specifier = ">=0.4" },
+    { name = "langgraph", specifier = ">=1.0.1" },
     { name = "langgraph-cli", extras = ["inmem"], specifier = ">=0.4.2" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "rich", specifier = ">=14.1.0" },

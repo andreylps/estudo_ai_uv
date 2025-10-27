@@ -9,6 +9,7 @@ requires-python = ">=3.13"
 dependencies = [
     "langchain-community>=0.4",
     "langchain[google-genai,ollama,openai]>=1.0.0a6",
+    "langgraph>=1.0.1",
     "langgraph-cli[inmem]>=0.4.2",
     "python-dotenv>=1.1.1",
     "rich>=14.1.0",
